@@ -2,10 +2,7 @@
   --primary-color: #2e00ff;
   --gap: 3rem;
   --light-gray-color: #EEEEEE;
-  /* #AD18FF
-      #801C68
-      
-   */
+  --text-color-whitebg: #0c0c0c;
 }
 *{
     margin: 0;
@@ -368,6 +365,9 @@ div.full-width{
   .menu-spacing{
     display: none;
   }
+}
+.text-white-bg{
+  color: var(--text-color-whitebg);
 }
 
 
