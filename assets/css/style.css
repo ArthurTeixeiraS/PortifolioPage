@@ -323,6 +323,9 @@ div.full-width{
   border: 0.2rem solid var(--primary-color);
 }
 @media (max-width: 800px){
+  html, body{
+    overflow-x: hidden !important; 
+  }
   .main-bg{
     width: 100%;
   }
