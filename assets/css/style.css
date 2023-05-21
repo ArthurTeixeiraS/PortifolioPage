@@ -362,7 +362,7 @@ div.full-width{
     position: fixed;
     z-index: 2;
     top: 2rem;
-    right: 4rem;
+    right: 2rem;
     background: var(--primary-color);
     color: white;
     line-height: 3rem;
@@ -392,6 +392,9 @@ div.full-width{
   }
   .stacks{
     max-height: 55px;
+  }
+  .back-to-top{
+    display: none;
   }
 }
 .text-white-bg{
