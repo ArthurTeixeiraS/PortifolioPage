@@ -171,7 +171,7 @@ article a{
 .grid-description{
   padding-bottom: 5rem;
 }
-.grid{
+.grid, .grid-contact{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--gap);
@@ -322,6 +322,13 @@ div.full-width{
   text-decoration: none;
   border: 0.2rem solid var(--primary-color);
 }
+.contact-header{
+  margin-bottom: 8rem;
+}
+.contact-icon{
+  max-width: 10rem;
+  max-height: 10rem;
+}
 @media (max-width: 800px){
   html, body{
     overflow-x: hidden !important; 
@@ -329,7 +336,7 @@ div.full-width{
   .main-bg{
     width: 100%;
   }
-  .intro-content, .grid{
+  .intro-content, .grid, .grid-contact{
     grid-template-columns: 1fr;
   }
   .gallery-img{
@@ -382,19 +389,27 @@ div.full-width{
     display: none;
   }
   .stack-icon{
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 5rem;
+    max-height: 5rem;
   }
   .stack-icon-js{
-    max-width: 40px;
-    max-height: 40px;
-    margin-right: 10px;
+    max-width: 4rem;
+    max-height: 4rem;
+    margin-right: 1rem;
   }
   .stacks{
-    max-height: 55px;
+    max-height: 5.5rem;
   }
   .back-to-top{
     display: none;
+  }
+  .contact-icon{
+    max-width: 8rem;
+    max-height: 8rem;
+  }
+  .grid-contact{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
   }
 }
 .text-white-bg{
