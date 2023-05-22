@@ -411,9 +411,27 @@ div.full-width{
     display: grid;
     grid-template-columns: 2fr 2fr;
   }
+  .title-content{
+    margin-top: -6rem;
+  }
+  .grid-main-heading{
+    margin-left: -0.5rem;
+  }
+  .msg-title{
+    margin-left: -2.5rem;
+  }
+  .msg-img{
+    display: none;
+  }
+  .contact-form legend{
+    margin-left: -0.5rem;
+    margin-top: -4rem;
+    font-size: 2.5rem;
+  }
+  .contact-form{
+    margin-left: -2.2rem;
+  }
 }
 .text-white-bg{
   color: var(--text-color-whitebg);
 }
-
-
