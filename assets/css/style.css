@@ -273,7 +273,7 @@ div.full-width{
   width: 100%;
   flex: 1 1 100%;
 }
-.form-group button{
+.form-group button, .back-button{
   border: 0.5rem solid white;
   background: none;
   color: white;
@@ -282,7 +282,12 @@ div.full-width{
   cursor: pointer;
   transition: all 300ms ease-in-out ;
 }
-.form-group button:hover{
+.form-group button:disabled{
+  cursor: not-allowed;
+  background: white;
+  color: var(--primary-color);
+}
+.form-group button:hover, .back-button:hover{
   background-color: white;
   color: var(--primary-color);
 }
@@ -437,4 +442,14 @@ div.full-width{
 }
 .text-white-bg{
   color: var(--text-color-whitebg);
+}
+.border-line{
+  border: 0.5rem solid;
+  border-color: white;
+  border-radius: 8%;
+}
+.top-spacing{
+    max-width: 120rem;
+    margin: 10rem auto auto auto;
+    padding: 5rem;
 }
